@@ -1,0 +1,6 @@
+/env
+/fhvhv_tripdata_2026-07.parquet
+/fhvhv_tripdata_2026-07_08.parquet
+/fhvhv_tripdata_2026-08.parquet
+/nyc_fhvhv_mongodb.ipynb
+/taxi_zone_lookup.csv
