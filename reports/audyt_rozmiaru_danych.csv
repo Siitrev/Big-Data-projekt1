@@ -1,0 +1,5 @@
+zasób,bajty,GiB
+"Parquet scalony (plik, skompresowany)",999355703,0.9307225262746215
+Parquet nieskompresowany (suma metadanych row groups),1208876242,1.1258537340909243
+MongoDB — logiczny rozmiar dokumentów BSON,5731751301,5.338109378702939
+MongoDB — indeksy,95625216,0.08905792236328125

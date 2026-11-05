@@ -1,0 +1,11 @@
+wymóg_kontrola,zaliczony,status
+Lokalne MongoDB odpowiada,True,OK
+Źródło zawiera >= 5 mld bajtów po dekompresji Parquet,False,BRAK / SPRAWDŹ
+Przechowywane dokumenty BSON >= 5 GiB,True,OK
+Lokalne rekordy dzienne mają unikatowe _id,True,OK
+Test lokalnego ponownego importu,True,OK
+Połączenie z Atlas działa,True,OK
+Scraping wykonany na żywej stronie WWW,True,OK
+Katalog w Atlas istnieje,True,OK
+Sync agregatów do Atlas wykonany,True,OK
+Sumy kontrolne lokal/chmura zgodne,True,OK
