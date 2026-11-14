@@ -12,7 +12,6 @@ services:
       - "27017:27017"
     volumes:
       - mongo-data:/data/db
-    # WiredTiger domyślnie bierze ~50% RAM na cache; ograniczenie zostawia pamięć dla notebooka
     command: ["--wiredTigerCacheSizeGB", "4"]
     healthcheck:
       test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
@@ -23,6 +22,4 @@ services:
 
 volumes:
   mongo-data:
-    # stała nazwa: ten sam wolumen co w `docker run ... -v mongo-nyc-taxi-data:/data/db`,
-    # więc już zaimportowane dane (nyc_taxi.fhvhv_trips) zostają zachowane
     name: mongo-nyc-taxi-data
